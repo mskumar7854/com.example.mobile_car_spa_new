@@ -1,0 +1,75 @@
+name: mobile_car_spa
+description: Mobile Car Spa Management App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core utils
+  intl: 0.20.2
+  path: ^1.8.3
+  path_provider: ^2.0.14
+
+  # Firebase
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.6.2
+  cloud_firestore: ^4.5.0
+  firebase_storage: ^11.2.0
+
+  # Streams / Rx (for combineLatest in Dashboard/Report)
+  rxdart: ^0.28.0
+
+  # Charts
+  fl_chart: ^0.66.2
+
+  table_calendar: ^3.0.9
+
+  # PDF/Printing
+  pdf: ^3.11.0
+  printing: ^5.10.2
+
+  # Launchers & sharing
+  url_launcher: ^6.3.0
+  share_plus: ^11.0.0
+  file_picker: ^8.0.3
+
+  # Excel export
+  excel: ^2.1.0
+
+  # Permissions
+  permission_handler: ^12.0.1
+
+  # Optional (only if actually used)
+  google_sign_in: ^5.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+dependency_overrides:
+  permission_handler_android: ^13.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/icon/whatsapp.png
+    - assets/sign.jpg
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "#00BFFF"
+  remove_alpha_ios: true
+  background_color_ios: "#00BFFF"

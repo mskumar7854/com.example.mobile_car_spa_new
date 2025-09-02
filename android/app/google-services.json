@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "749143264627",
+    "project_id": "mobile-car-spa-e23de",
+    "storage_bucket": "mobile-car-spa-e23de.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749143264627:android:f826192c10d322ed07c906",
+        "android_client_info": {
+          "package_name": "com.example.mobile_car_spa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI1WSlrGYMIKPAfZ0ihHumXxC7k_tWjnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749143264627:android:6239869a8d115e8807c906",
+        "android_client_info": {
+          "package_name": "com.example.mobile_car_spa_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI1WSlrGYMIKPAfZ0ihHumXxC7k_tWjnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
